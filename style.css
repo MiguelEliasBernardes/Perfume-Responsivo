@@ -31,7 +31,7 @@ html, body{
 
 .imagem img{
     width: 100%;
-    height: 50%;
+    height: auto;
     border-radius: 8px 0px 0px 8px;
     transition: 0.7s;
 }
@@ -39,7 +39,7 @@ html, body{
 .conteudo{
     width: 100%;
     border-radius: 0px 8px 8px 0px;
-    height: 44.7%;
+    height: auto;
     background-color: white;
 }
 
@@ -94,7 +94,7 @@ h5{
     font-size: 18px;
     font-weight: normal;
     background-color: darkgreen;
-    margin: 20px 10px;
+    margin: 40px 10%;
     width: 80%;
     height: 10%;
     border: none;
@@ -105,7 +105,7 @@ h5{
 }
 
 h5:hover{
-    width: 90%;
+    width: 85%;
     height: 12%;
     background-color: darkolivegreen;
 }
@@ -116,7 +116,8 @@ h5:hover{
 
 @media screen and (max-width:768px){
     .center{
-        width: 375px;
+        width: 90%;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -142,5 +143,6 @@ h5:hover{
 
     .conteudo{
         border-radius: 0px 0px 10px 10px;
+        height: auto;
     }
 }
